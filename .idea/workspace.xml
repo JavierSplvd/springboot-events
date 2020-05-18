@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc0a8e04-934a-439f-9392-293af84371ba" name="Default Changelist" comment="" />
+    <list default="true" id="cc0a8e04-934a-439f-9392-293af84371ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/numian/cursos/service/CoursePublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/numian/cursos/service/CourseConsumerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/numian/cursos/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/numian/cursos/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/numian/cursos/domain/ConditionalFunctionality.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/numian/cursos/domain/ConditionalFunctionalityDisabled.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/numian/cursos/domain/ConditionalFunctionalityEnabled.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/numian/cursos/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/numian/cursos/TestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/numian/cursos/domain/ConditionalFunctionalityStrategyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/numian/cursos/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/numian/cursos/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/numian/cursos/controller/CourseResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/numian/cursos/controller/CourseResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/numian/cursos/domain/ConditionalFunctionality.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/numian/cursos/domain/ConditionalFunctionalityDisabled.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/numian/cursos/domain/ConditionalFunctionalityEnabled.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/numian/cursos/TestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/numian/cursos/TestApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/numian/cursos/controller/CourseControllerTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/numian/cursos/controller/CourseControllerTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/numian/cursos/domain/ConditionalFunctionalityStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/application.properties" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +44,7 @@
   </component>
   <component name="ProjectId" id="1bFx2pTJTWFYikcIBjncgIk0gvZ" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -30,6 +53,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="main.numian.cursos.service" />
       <recent name="main.numian.cursos.domain" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -54,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConditionalFunctionalityStrategyTest">
+  <component name="RunManager" selected="JUnit.CourseConsumerTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.numian.cursos.App" />
       <module name="accessing-data-jpa" />
@@ -98,6 +122,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CourseConsumerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="accessing-data-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.numian.cursos.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.numian.cursos.service" />
+      <option name="MAIN_CLASS_NAME" value="test.numian.cursos.service.CourseConsumerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CourseControllerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="accessing-data-jpa" />
       <extension name="coverage">
@@ -113,28 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CourseHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="accessing-data-jpa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.numian.cursos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.numian.cursos.domain" />
-      <option name="MAIN_CLASS_NAME" value="test.numian.cursos.domain.CourseHandlerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CourseConsumerTest" />
+        <item itemvalue="JUnit.CourseControllerTests" />
+        <item itemvalue="JUnit.AppTests" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.ConditionalFunctionalityStrategyTest" />
-        <item itemvalue="JUnit.CourseControllerTests" />
-        <item itemvalue="JUnit.CourseHandlerTest" />
-        <item itemvalue="JUnit.AppTests" />
       </list>
     </recent_temporary>
   </component>
@@ -150,5 +174,18 @@
       <updated>1588241438658</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

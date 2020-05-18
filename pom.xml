@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>numian</groupId>
-    <artifactId>accessing-data-jpa</artifactId>
+    <artifactId>springboot-cdi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>accessing-data-jpa</name>
     <description>Demo project for Spring Boot</description>
