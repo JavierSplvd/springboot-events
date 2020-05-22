@@ -18,9 +18,9 @@ public class CoursePublisher {
         this.publisher = publisher;
     }
 
-    @Async
-    public void produce(){
-        System.out.println("Producing course");
+    public void publish() throws InterruptedException {
+        System.out.println("PUBLISHER: Producing course");
+        Thread.sleep(10000);
         publisher.publishEvent(new Course(generateRandomString()));
     }
 

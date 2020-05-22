@@ -11,8 +11,7 @@ public class CourseConsumer {
 
     @EventListener
     public void createCourse(Course course) throws InterruptedException {
-        Thread.sleep(1500);
-        System.out.println("A course has been created with title: " + course.getTitle());
+        System.out.println("CONSUMER: A course has been created with title: " + course.getTitle());
     }
 
 }
